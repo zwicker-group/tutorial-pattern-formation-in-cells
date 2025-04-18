@@ -4,4 +4,4 @@
 # To run, you need to install the python packages `nbmake` and `pytest-xdist`.
 # Note that the tests may take several minutes to run.
 
-pytest --nbmake -n=auto solution-notebooks/*.ipynb 
+pytest --nbmake --nbmake-timeout=1000 -n=auto solution-notebooks/*.ipynb

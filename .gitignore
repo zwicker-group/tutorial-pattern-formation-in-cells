@@ -132,3 +132,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+tutorial-notebooks/day2_3_non-ideal-reaction-diffusion.ipynb
